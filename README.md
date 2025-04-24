@@ -20,7 +20,10 @@ This is a simple E-Commerce backend application built using **Spring Boot 3.4.4*
 
 ## 📁 Project Structure
 
-ecommerce/ ├── src/ │ ├── main/ │ │ ├── java/ │ │ │ └── com/akshay/ecommerce/ │ │ └── resources/ │ │ ├── application.properties │ │ └── static / templates (if any) ├── pom.xml
+ecommerce/
+├── src/ │ 
+   ├── main/ │ │
+      ├── java/ │ │ │ └── com/akshay/ecommerce/ │ │ └── resources/ │ │ ├── application.properties │ │ └── static / templates (if any) ├── pom.xml
 
 
 ## 🛠️ Setup Instructions
