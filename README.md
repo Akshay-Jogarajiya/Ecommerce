@@ -54,3 +54,6 @@ ecommerce/
 4. **Access the API**:
    ```bash
    http://localhost:8080
+
+## 📜 License
+This project is licensed under the MIT License.
