@@ -30,13 +30,16 @@ ecommerce/
 
 1. **Clone the repository**:
    ```bash
-   git clone https://github.com/yourusername/ecommerce.git
-   cd ecommerce
-Build the project:
-./mvnw clean install
+   git clone https://github.com/Akshay-Jogarajiya/Ecommerce
+   cd Ecommerce
+2. **Build the project**:
+   ```bash
+   ./mvnw clean install
 
-Run the application:
-./mvnw spring-boot:run
+3. **Run the application**:
+   ```bash
+   ./mvnw spring-boot:run
 
-Access the API:
-http://localhost:8080
+4. **Access the API**:
+   ```bash
+   http://localhost:8080
