@@ -7,9 +7,8 @@ This is a simple E-Commerce backend application built using **Spring Boot 3.4.4*
 - 🧩 Modular project structure
 - 📦 RESTful API for products, users, and orders
 - 🛡️ Spring Security (if implemented)
-- 💾 JPA + Hibernate for ORM
+- 💾 JPA for ORM
 - 🔄 CRUD operations for eCommerce entities
-- 📄 API documentation (Swagger or Springdoc if integrated)
 
 ## 🧱 Tech Stack
 
