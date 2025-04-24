@@ -23,6 +23,39 @@ public class Product {
     private int id;
     private String name;
     private String description;
+
+    public int getId() {
+        return id;
+    }
+
+    public String getName() {
+        return name;
+    }
+
+    public String getDescription() {
+        return description;
+    }
+
+    public BigDecimal getPrice() {
+        return price;
+    }
+
+    public String getCategory() {
+        return category;
+    }
+
+    public Date getReleaseDate() {
+        return releaseDate;
+    }
+
+    public boolean isAvailable() {
+        return available;
+    }
+
+    public int getQuantity() {
+        return quantity;
+    }
+
     private BigDecimal price;
     private String category;
 
