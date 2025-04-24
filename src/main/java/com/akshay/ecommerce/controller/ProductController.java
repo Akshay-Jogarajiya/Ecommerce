@@ -69,6 +69,18 @@ public class ProductController {
             return ResponseEntity.badRequest()
                     .body("product not updated");
         }
+    }
 
+    @DeleteMapping("/product/{productId}")
+    public ResponseEntity<String> deleteProduct(@PathVariable int productId) {
+        Product product = productService.getProductById(productId);
+
+        if (product != null) {
+            productService.deleteProduct(productId);
+            return ResponseEntity.ok()
+                    .body("delete the product");
+        }
+        else
+            return ResponseEntity.notFound().build();
     }
 }
