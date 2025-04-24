@@ -15,9 +15,8 @@ This is a simple E-Commerce backend application built using **Spring Boot 3.4.4*
 - **Spring Boot 3.4.4**
 - **Spring Data JPA**
 - **Maven**
-- **MySQL / H2** (depending on your DB)
+- **MySQL / H2** 
 - **Lombok**
-- **Swagger/OpenAPI** (optional)
 
 ## 📁 Project Structure
 
