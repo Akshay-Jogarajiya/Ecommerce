@@ -67,7 +67,7 @@ public class ProductController {
                     .body("product update");
         } catch (IOException e) {
             return ResponseEntity.badRequest()
-                    .body("product not updated")
+                    .body("product not updated");
         }
 
     }
