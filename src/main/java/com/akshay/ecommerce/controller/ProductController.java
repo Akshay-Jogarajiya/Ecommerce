@@ -83,4 +83,10 @@ public class ProductController {
         else
             return ResponseEntity.notFound().build();
     }
+
+    @GetMapping("/products/search")
+    public ResponseEntity<List<Product>> searchProduct(@RequestParam String keyword) {
+        return ResponseEntity.ok()
+                .body(productService.searchProduct(keyword));
+    }
 }
